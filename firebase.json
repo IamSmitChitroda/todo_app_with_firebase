@@ -1,0 +1,33 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "todo-app-8291d",
+          "appId": "1:1052267226994:android:e99c3f1ba10ed899395feb",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "todo-app-8291d",
+          "configurations": {
+            "android": "1:1052267226994:android:e99c3f1ba10ed899395feb",
+            "ios": "1:1052267226994:ios:c63c66b1eec325ad395feb",
+            "macos": "1:1052267226994:ios:c63c66b1eec325ad395feb",
+            "web": "1:1052267226994:web:3af379ebf6ed2138395feb",
+            "windows": "1:1052267226994:web:4321ecddb35b18c5395feb"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
